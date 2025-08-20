@@ -40,7 +40,7 @@ The workshop hosts the **MARS2 Multimodal Reasoning Challenge**, designed to pus
 | **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) |
 | **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen-VL`, `InternVL` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_QwenVL)<br/>[**MARS2_Track2_internVL**](https://github.com/your-username/MARS2_Track2_internVL) |
 
-The challenge will test performance on benchmarks including **TextVQA, GQA, A-OKVQA, ChartQA, POPE**, and custom open-ended reasoning tasks designed for System-2 evaluation.
+The challenge will test performance on benchmarks including **[LENS](https://arxiv.org/abs/2505.15616), AdsVQA**, open-ended reasoning tasks, designed for System-2 evaluation.
 
 ---
 
