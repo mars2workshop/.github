@@ -50,7 +50,7 @@ This organization serves as the official hub for all workshop activities, compet
 
 | Repository | Description |
 | :--- | :--- |
-| 🌐 [**iccv2025**](https://github.com/your-username/iccv2025) | The official website for the MARS2 @ ICCV 2025 Workshop, including the schedule, CFP, organizers, and keynote speakers. |
+| 🌐 [**Homepage**]([https://github.com/your-username/iccv2025](https://mars2workshop.github.io/iccv2025/)) | The official website for the MARS2 @ ICCV 2025 Workshop, including the schedule, CFP, organizers, and keynote speakers. |
 | 🎯 [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) | Baseline implementation for **Track 1**, using the Ferret model for referring and grounding tasks. |
 | 🧠 [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_QwenVL) | Baseline implementation for **Track 2**, using the Qwen-VL model for Visual Question Answering with Spatial Awareness. |
 | 👁️ [**MARS2_Track2_internVL**](https://github.com/your-username/MARS2_Track2_internVL) | An alternative baseline for **Track 2**, using the InternVL model for spatial reasoning tasks. |
