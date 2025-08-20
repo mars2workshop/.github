@@ -17,7 +17,7 @@ The era of **Large Reasoning Models (LRMs)** has begun, bringing new opportuniti
 
 ### 🌟 Key Features
 
-- **Premier Workshop at ICCV 2025**  
+- **Workshop at ICCV 2025**  
   Hosted in Honolulu, Hawaii, featuring keynote talks from world-renowned researchers in AI and computer vision.
 
 - **High-Stakes Reasoning Competition**  
