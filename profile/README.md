@@ -74,12 +74,3 @@ We gratefully acknowledge the contributions of the following open-source project
 ## 👍 Citation
 
 If you use MARS2 materials, benchmarks, or code in your research, please cite our workshop:
-
-```bibtex
-@inproceedings{mars2_iccv2025,
-  title={MARS2: Multimodal Reasoning and Slow Thinking in the Large Model Era},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-  year={2025},
-  author={MARS2 Organizers}
-}
-```
