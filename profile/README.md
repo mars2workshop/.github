@@ -37,8 +37,8 @@ The workshop hosts the **MARS2 Multimodal Reasoning Challenge**, designed to pus
 
 | Track | Task Description | Core Models | Repository |
 | :--- | :--- | :--- | :--- |
-| **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) |
-| **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen-VL`, `InternVL` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_QwenVL)<br/>[**MARS2_Track2_internVL**](https://github.com/your-username/MARS2_Track2_internVL) |
+| **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret`, `Qwen2.5-VL` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) <br/>[**MARS2_Track1_Qwen2.5-VL3**](https://github.com/mars2workshop/MARS2_Track1_Qwen2.5-VL)|
+| **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen2.5-VL3`, `InternVL`, `Mllms_know`, `Groma` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_Qwen2.5-VL)<br/>[**MARS2_Track2_internVL**](https://github.com/mars2workshop/MARS2_Track2_InternVL3) <br/>[**MARS2_Track2_Mllms_know**](https://github.com/mars2workshop/MARS2_Track2_Mllms_know)<br/>[**MARS2_Track1_Groma**](https://github.com/mars2workshop/MARS2_Track1_Groma3)|
 
 The challenge will test performance on benchmarks including **[LENS](https://arxiv.org/abs/2505.15616), AdsVQA**, open-ended reasoning tasks, designed for System-2 evaluation.
 
