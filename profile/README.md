@@ -37,8 +37,8 @@ The workshop hosts the **MARS2 Multimodal Reasoning Challenge**, designed to pus
 
 | Track | Task Description | Core Models | Repository |
 | :--- | :--- | :--- | :--- |
-| **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret`, `Qwen2.5-VL` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) <br/>[**MARS2_Track1_Qwen2.5-VL3**](https://github.com/mars2workshop/MARS2_Track1_Qwen2.5-VL)|
-| **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen2.5-VL3`, `InternVL`, `Mllms_know`, `Groma` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_Qwen2.5-VL)<br/>[**MARS2_Track2_internVL**](https://github.com/mars2workshop/MARS2_Track2_InternVL3) <br/>[**MARS2_Track2_Mllms_know**](https://github.com/mars2workshop/MARS2_Track2_Mllms_know)<br/>[**MARS2_Track1_Groma**](https://github.com/mars2workshop/MARS2_Track1_Groma3)|
+| **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret`, `Qwen2.5-VL`, `Groma` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) <br/>[**MARS2_Track1_Qwen2.5-VL**](https://github.com/mars2workshop/MARS2_Track1_Qwen2.5-VL)<br/>[**MARS2_Track1_Groma**](https://github.com/mars2workshop/MARS2_Track1_Groma)|
+| **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen2.5-VL`, `InternVL3`, `Mllms_know` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_Qwen2.5-VL)<br/>[**MARS2_Track2_internVL3**](https://github.com/mars2workshop/MARS2_Track2_InternVL3) <br/>[**MARS2_Track2_Mllms_know**](https://github.com/mars2workshop/MARS2_Track2_Mllms_know)|
 
 The challenge will test performance on benchmarks including **[LENS](https://arxiv.org/abs/2505.15616), AdsVQA**, open-ended reasoning tasks, designed for System-2 evaluation.
 
@@ -52,9 +52,12 @@ This organization serves as the official hub for all workshop activities, compet
 | :--- | :--- |
 | 🌐 [**Homepage**](https://mars2workshop.github.io/iccv2025/) | The official website for the MARS2 @ ICCV 2025 Workshop, including the schedule, CFP, organizers, and keynote speakers. |
 | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) | Baseline implementation for **Track 1**, using the Ferret model for referring and grounding tasks. |
-| [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_QwenVL) | Baseline implementation for **Track 2**, using the Qwen-VL model for Visual Question Answering with Spatial Awareness. |
-| [**MARS2_Track2_internVL**](https://github.com/your-username/MARS2_Track2_internVL) | An alternative baseline for **Track 2**, using the InternVL model for spatial reasoning tasks. |
-| [**mllms_know_qwen2_5**](https://github.com/your-username/mllms_know_qwen2_5) | An experimental implementation based on the ICLR 2025 paper for training-free perception of small visual details using Qwen2.5-VL. |
+| [**MARS2_Track1_Qwen2.5-VL**](https://github.com/mars2workshop/MARS2_Track1_Qwen2.5-VL) | An alternative baseline for **Track 1**, using the Qwen2.5-VL model for referring and grounding tasks. |
+| [**MARS2_Track1_Groma**](https://github.com/mars2workshop/MARS2_Track1_Groma)| A batch inference pipeline using Groma, a grounded multimodal large language model (MLLM) with strong region understanding and visual grounding capabilities, for referring and grounding tasks. |
+| [**MARS2_Track2_Qwen2.5-VL**](https://github.com/your-username/MARS2_Track2_Qwen2.5-VL) | Baseline implementation for **Track 2**, using the Qwen-VL model for Visual Question Answering with Spatial Awareness. |
+| [**MARS2_Track2_internVL3**](https://github.com/your-username/MARS2_Track2_internVL3) | An alternative baseline for **Track 2**, using the InternVL model for spatial reasoning tasks. |
+| [**MARS2_Track2_Mllms_know**](https://github.com/mars2workshop/MARS2_Track2_Mllms_know) | An experimental implementation based on the ICLR 2025 paper for training-free perception of small visual details using Qwen2.5-VL. |
+
 
 ⚠️ These model-specific folders provide experimental support for benchmarking and challenge tasks. They are intended as baselines and resources for participants.
 
