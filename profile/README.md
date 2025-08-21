@@ -70,7 +70,7 @@ We gratefully acknowledge the contributions of the following open-source project
 - **[Qwen](https://qwenlm.github.io/)**: A powerful series of large language and vision-language models by Alibaba Cloud.
 - **[InternVL](https://internvl.github.io/)**: A foundational open-source vision-language model designed for advanced multimodal understanding.
 - **[Ferret](https://github.com/apple/ml-ferret)**: An MLLM capable of referring and grounding anything anywhere at any granularity.
-- **[LLaVA](https://llava-vl.github.io/)**: A pioneering large multimodal model connecting a vision encoder and an LLM for general-purpose visual and language understanding.
+- **[Groma](fhttps://github.com/FoundationVision/Groma/)**: An MLLM with exceptional region understanding and visual grounding capabilities.
 
 ---
 
