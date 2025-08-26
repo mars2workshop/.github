@@ -1,6 +1,4 @@
-<div align="center">
-    ![Cover](./cover.png)
-</div>
+![Cover](./cover.png)
 
 <div align="center">
   <h1>🌌 MARS2 @ ICCV 2025</h1>
@@ -81,3 +79,4 @@ We gratefully acknowledge the contributions of the following open-source project
 ## 👍 Citation
 
 If you use MARS2 materials, benchmarks, or code in your research, please cite our workshop:
+
