@@ -1,4 +1,8 @@
 <div align="center">
+    ![Cover](./cover.png)
+</div>
+
+<div align="center">
   <h1>🌌 MARS2 @ ICCV 2025</h1>
   <p><i>Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond</i></p>
   <p>
