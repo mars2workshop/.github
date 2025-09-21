@@ -6,6 +6,9 @@
   <p>
     📅 October 2025 | 📍 Honolulu, Hawaii | 📖 ICCV 2025 Workshop  
   </p>
+  <p>
+    🔥<b>Official Report</b> <a href="https://arxiv.org/abs/2509.14142"><b>"MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook"</b></a>
+  </p>
 </div>
 
 
@@ -42,7 +45,7 @@ The workshop hosts the **MARS2 Multimodal Reasoning Challenge**, designed to pus
 | **Track 1** | **Fine-Grained Referring & Grounding**: Given an image and a textual query, the model must output the corresponding bounding box coordinates for the referred object. | `Ferret`, `Qwen2.5-VL`, `Groma` | [**MARS2_Track1_Ferret**](https://github.com/your-username/MARS2_Track1_Ferret) <br/>[**MARS2_Track1_Qwen2.5-VL**](https://github.com/mars2workshop/MARS2_Track1_Qwen2.5-VL)<br/>[**MARS2_Track1_Groma**](https://github.com/mars2workshop/MARS2_Track1_Groma)|
 | **Track 2** | **VQA with Spatial Awareness**: Evaluates a model's ability to reason about spatial relationships, relative positions, commonsense, and counterfactual scenarios. | `Qwen2.5-VL`, `InternVL3`, `Mllms_know` | [**MARS2_Track2_QwenVL**](https://github.com/your-username/MARS2_Track2_Qwen2.5-VL)<br/>[**MARS2_Track2_internVL3**](https://github.com/mars2workshop/MARS2_Track2_InternVL3) <br/>[**MARS2_Track2_Mllms_know**](https://github.com/mars2workshop/MARS2_Track2_Mllms_know)|
 
-The challenge will test performance on benchmarks including **[LENS](https://arxiv.org/abs/2505.15616), AdsVQA**, open-ended reasoning tasks, designed for System-2 evaluation.
+The challenge will test performance on benchmarks including **[LENS](https://arxiv.org/abs/2505.15616), [AdsVQA](https://arxiv.org/abs/2509.08621)**, open-ended reasoning tasks, designed for System-2 evaluation.
 
 ---
 
@@ -79,6 +82,33 @@ We gratefully acknowledge the contributions of the following open-source project
 ## 👍 Citation
 
 If you use MARS2 materials, benchmarks, or code in your research, please cite our workshop:
+
+    ```
+    @inproceedings{xu2025mars2,
+    author    = {Xu, Peng and Xiong, Shengwu and Zhang, Jiajun and Chen, Yaxiong and Zhou, Bowen and Loy, Chen Change and Clifton, David and Lee, Kyoung Mu and Van Gool, Luc and others},
+    title     = {MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook},
+    booktitle = {ICCV Workshop},
+    year      = {2025}
+    }
+    ```
+    
+    ```
+    @article{yao2025lens,
+    title={LENS: Multi-level Evaluation of Multimodal Reasoning with Large Language Models},
+    author={Yao, Ruilin and Zhang, Bo and Huang, Jirui and Long, Xinwei and Zhang, Yifang and Zou, Tianyu and Wu, Yufei and Su, Shichao and Xu, Yifan and Zeng, Wenxi and Yang, Zhaoyu and Li, Guoyou and Zhang, Shilan and Li, Zichan and Chen, Yaxiong and Xiong, Shengwu and Xu, Peng and Zhang, Jiajun and Zhou, Bowen and Clifton, David and Van Gool, Luc},
+    journal={arXiv preprint arXiv:2505.15616},
+    year={2025}
+    }
+    ```
+
+    ```
+    @inproceedings{long2025adsqa,
+    author    = {Long, Xinwei and Tian, Kai and Xu, Peng and Jia, Guoli and Li, Jingxuan and Yang, Sa and Shao, Yihua and Zhang, Kaiyan and Jiang, Che and Xu, Hao and Liu, Yang and Ma, Jiaheng and Zhou, Bowen},
+    title     = {AdsQA: Towards Advertisement Video Understanding},
+    booktitle = {ICCV},
+    year      = {2025}
+    }
+    ```
 
 
 
